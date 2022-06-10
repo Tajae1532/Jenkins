@@ -10,7 +10,6 @@ pipeline {
     }
 }
 
-Jenkinsfile (Declarative Pipeline)
 pipeline {
     agent any
     stages {
@@ -22,7 +21,6 @@ pipeline {
     }
 }
 
-Jenkinsfile (Declarative Pipeline)
 pipeline {
     agent any
     stages {
@@ -40,7 +38,6 @@ pipeline {
     }
 }
 
-Jenkinsfile (Declarative Pipeline)
 pipeline {
     agent any
     stages {
@@ -56,7 +53,6 @@ pipeline {
     }
 }
 
-Jenkinsfile (Declarative Pipeline)
 pipeline {
     agent any
     stages {
@@ -86,7 +82,6 @@ pipeline {
     }
 }
 
-Jenkinsfile (Declarative Pipeline)
 pipeline {
     agent {
         docker { image 'node:16.13.1-alpine' }
@@ -100,7 +95,6 @@ pipeline {
     }
 }
 
-Jenkinsfile (Declarative Pipeline)
 pipeline {
     agent {
         label '!windows'
@@ -122,7 +116,6 @@ pipeline {
     }
 }
 
-Jenkinsfile (Declarative Pipeline)
 pipeline {
     agent any
     stages {
@@ -139,7 +132,6 @@ pipeline {
     }
 }
 
-Jenkinsfile (Declarative Pipeline)
 pipeline {
     agent any
     stages {
@@ -171,7 +163,6 @@ post {
     }
 }
 
-Jenkinsfile (Declarative Pipeline)
 pipeline {
     agent any
     options {
